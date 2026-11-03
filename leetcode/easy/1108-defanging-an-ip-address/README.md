@@ -35,9 +35,9 @@ Output: "255[.]100[.]50[.]0"
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.4 MB (beats 83.98%)  
-**Submitted:** 2026-11-03T09:27:53.829Z  
+**Runtime:** 0 ms  
+**Memory:** 42 MB  
+**Submitted:** 2026-11-03T09:28:03.828Z  
 
 ```java
 class Solution {
