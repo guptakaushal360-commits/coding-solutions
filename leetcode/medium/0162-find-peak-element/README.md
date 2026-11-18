@@ -44,8 +44,8 @@ Explanation: Your function can return either index number 1 where the peak eleme
 
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 41.9 MB  
-**Submitted:** 2026-11-18T10:07:28.305Z  
+**Memory:** 41.8 MB  
+**Submitted:** 2026-11-18T10:07:51.590Z  
 
 ```java
 class Solution {
@@ -53,7 +53,7 @@ class Solution {
         int l =0;
         int r = nums.length-1;
 
-        while(l<r){
+        while(l<=r){
             int mid=l+(r-l)/2;
             if((mid-1<0 || nums[mid]>nums[mid-1]) && (mid-1>=nums.length || nums[mid]>nums[mid+1])){
                 return mid;
